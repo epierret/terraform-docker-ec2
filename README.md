@@ -1,5 +1,6 @@
 # terraform-docker-ec2
 
-#
-lien notion
-https://www.notion.so/projet-ci-cd-terraform-gitlab-docker-slack-304aa772a13d800192afc4d333b534f4?source=copy_link
+
+Ce projet automatise le déploiement d’une instance EC2 via OpenTofu, intégrée dans un pipeline GitLab CI.
+Nginx est installé sur la VM à l’aide d’un script shell qui déploie une image Nginx personnalisée.
+L’image GitLab est sécurisée et révisée automatiquement grâce à Plumber.
